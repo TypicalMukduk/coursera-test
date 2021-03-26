@@ -18,7 +18,7 @@ section {
 
 #p1 {
   background-color: #5F9EA0;
-  border: 2px solid black;
+  border: 1px solid black;
   text-align: center;
   width: 40%;
   height: 25px;
@@ -26,13 +26,14 @@ section {
   font-family: Helvetica;
   color: white;
   position: relative;
-  top:-19px;
-  right:-3px;
+  top:-18px;
+  right:-2px;
 
 }
 
 #p2 {
   text-align: center;
+  border:1px;
   width: 95%;
   height: 100px;
   float:right;
@@ -40,6 +41,34 @@ section {
   color: yellow;
   position: relative;
   bottom:40px;
+
+}
+#p3 {
+  background-color: orange;
+  border: 1px solid black;
+  text-align: center;
+  width: 40%;
+  height: 25px;
+  float:right;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  top:-18px;
+  right:-2px;
+
+}
+#p4 {
+  background-color: green;
+  border: 1px solid black;
+  text-align: center;
+  width: 40%;
+  height: 25px;
+  float:right;
+  font-family: Helvetica;
+  color: white;
+  position: relative;
+  top:-18px;
+  right:-2px;
 
 }
 /* Simple Responsive Framework. */
